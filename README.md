@@ -15,6 +15,7 @@ images for training. Augmentation was done with [augment_images](augment_images.
 
 
 ## Network and training
-The network used used had 3 layers and was trained for 100 epochs. This [code](augment_images.py) is used for building and training training the model using keras.
+The network used used had 3 layers and was trained for 100 epochs. This [code](augment_images.py) is used for building and training training the model using keras. The size of the 
+trained model is so large so i could not load it in this repository so you would have to train one.
 
 
