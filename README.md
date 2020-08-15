@@ -9,12 +9,12 @@ Detection of all road signs is done by [detect_sign](detect_sign.cpp). This [pyt
 also ignore false positives in the process.
 
 
-#Dataset
+##Dataset
 The dataset for training the model for classifying the traffic sign is generated using augmentation. The actual images are 5 and a total of 5000 images are gerated for these five 
 images for training. Augmentation was done with [augment_images](augment_images.py).
 
 
-#Network and training
+##Network and training
 The network used used had 3 layers and was trained for 100 epochs. This [code](augment_images.py) is used for building and training training the model using keras.
 
 
