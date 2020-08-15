@@ -5,7 +5,7 @@ the speed of c++ since it would be used for autonmous driving applications which
 This is taken care of by the second part which is written in python. The main function of this code is to classify the trafffic sign as one of five traffic signs and also reject 
 false positives. 
 
-Detection of all road signs is done by [detect_sign](detect_sign.cpp). This [python code](Net_predict.py) is embedded in this c++ code to predict the actual road sign detected and 
+Detection of all road signs is done by [detect_sign](detect_sign.cpp). This [python code](Net_predict.py) is embedded in the c++ code to predict the actual road sign detected and 
 also ignore false positives in the process.
 
 
